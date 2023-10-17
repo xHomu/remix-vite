@@ -4,27 +4,29 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev --manual",
+    "build": "vite build && vite build --ssr",
+    "dev": "vite dev",
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/css-bundle": "^2.1.0",
-    "@remix-run/node": "^2.1.0",
-    "@remix-run/react": "^2.1.0",
-    "@remix-run/serve": "^2.1.0",
+    "@remix-run/css-bundle": "v0.0.0-nightly-63a5c6c-20231017",
+    "@remix-run/node": "v0.0.0-nightly-63a5c6c-20231017",
+    "@remix-run/react": "v0.0.0-nightly-63a5c6c-20231017",
+    "@remix-run/serve": "v0.0.0-nightly-63a5c6c-20231017",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.1.0",
-    "@remix-run/eslint-config": "^2.1.0",
+    "@remix-run/dev": "v0.0.0-nightly-63a5c6c-20231017",
+    "@remix-run/eslint-config": "v0.0.0-nightly-63a5c6c-20231017",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.38.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "vite": "^4.4.11",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "engines": {
     "node": ">=18.0.0"
