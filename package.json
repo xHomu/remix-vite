@@ -10,17 +10,17 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/css-bundle": "v0.0.0-nightly-63a5c6c-20231017",
-    "@remix-run/node": "v0.0.0-nightly-63a5c6c-20231017",
-    "@remix-run/react": "v0.0.0-nightly-63a5c6c-20231017",
-    "@remix-run/serve": "v0.0.0-nightly-63a5c6c-20231017",
+    "@remix-run/css-bundle": "latest",
+    "@remix-run/node": "latest",
+    "@remix-run/react": "latest",
+    "@remix-run/serve": "latest",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "v0.0.0-nightly-63a5c6c-20231017",
-    "@remix-run/eslint-config": "v0.0.0-nightly-63a5c6c-20231017",
+    "@remix-run/dev": "latest",
+    "@remix-run/eslint-config": "latest",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.16",
