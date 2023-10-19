@@ -5,6 +5,9 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [
     remix({
+      optimizeDeps: {
+        include: ["react", "react-dom/client"],
+      },
       ignoredRouteFiles: ["**/.*"],
       tailwind: true,
       postcss: true,
