@@ -5,22 +5,22 @@
   "type": "module",
   "scripts": {
     "build": "vite build && vite build --ssr",
-    "dev": "vite dev",
+    "dev": "vite dev --port 3000",
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/css-bundle": "latest",
-    "@remix-run/node": "latest",
-    "@remix-run/react": "latest",
-    "@remix-run/serve": "latest",
+    "@remix-run/css-bundle": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/node": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/react": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/serve": "0.0.0-experimental-b5b8702c4",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "latest",
-    "@remix-run/eslint-config": "latest",
+    "@remix-run/dev": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/eslint-config": "0.0.0-experimental-b5b8702c4",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.16",
